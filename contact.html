@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact me</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+  <script src="/main.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Wall of Marielle</a></li>
+        <li class="active"><a href="contact.html">Contact me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Get in touch</h1>
+    <form>
+
+      <label class="firstname">First Name</label>
+      <input type="text" id="firsname" class="input" placeholder="John" required>
+      <label class="surname">Surname</label>
+      <input type="text" id="surname" class="input" placeholder="Smith" required>
+      <label class="email">Email</label>
+      <input type="email" id="email" class="input" placeholder="email@domain.com" required>
+
+      <label>Message<textarea class="input" cols="30" rows="5"></textarea></label>
+
+      <div class="status"></div>
+      <button type="submit" class="submit">Send</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; Lais Golin - 2021</p>
+  </footer>
+</body>
+
+</html>
